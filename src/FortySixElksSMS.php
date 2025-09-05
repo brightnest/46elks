@@ -63,7 +63,7 @@ class FortySixElksSMS extends FortySixElksMedia implements FortySixElksMediaInte
      */
     public function flash(string $value = 'yes'): FortySixElksSMS
     {
-        self::prepareParams(key: 'flash', value: $value);
+        self::prepareParams(key: 'flashsms', value: $value);
 
         return $this;
     }
